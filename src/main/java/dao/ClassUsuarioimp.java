@@ -13,7 +13,7 @@ public class ClassUsuarioimp implements Iusuario{
 
 	@Override
 	public TblUsuariocl2 validarUsuario(String usuario, String password) {
-		EntityManagerFactory emf = Persistence.createEntityManagerFactory("LPII_CL2_VELIZGUERRADANIEL");
+		EntityManagerFactory emf = Persistence.createEntityManagerFactory("LPII_CL2_DORIANGALVEZJPA");
         EntityManager em = emf.createEntityManager();
         try{
             TypedQuery<TblUsuariocl2> query = em.createQuery(
